@@ -1,4 +1,4 @@
-resource "azurerm_app_service" "web_app" {
+resource "azurerm_linux_web_app" "web_app" {
   name                = var.name
   resource_group_name = var.resource_group_name
   location            = var.location
@@ -6,8 +6,5 @@ resource "azurerm_app_service" "web_app" {
 
   site_config {
   
-    linux_fx_version = var.linux_fx_version
-   
-
   }
 }

@@ -14,6 +14,3 @@ variable "service_plan_id" {
   
 }
 
-variable "linux_fx_version" {
-  
-}
