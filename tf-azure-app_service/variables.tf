@@ -14,3 +14,10 @@ variable "service_plan_id" {
   
 }
 
+variable "docker_image" {
+  
+}
+
+variable "docker_image_tag" {
+  
+}
